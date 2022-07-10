@@ -6,9 +6,14 @@
 
   <groupId>com.samseen.app</groupId>
   <artifactId>sample-app</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>sample-app</name>
+  <modules>
+    <module>customer</module>
+  </modules>
+
+  <name>appservices</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
